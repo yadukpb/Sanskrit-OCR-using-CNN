@@ -33,6 +33,7 @@ This dataset was originally created by the Computer Vision Research Group, Nepal
    git clone https://github.com/your_username/sanskrit-OCR-CNN.git
    
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
    
