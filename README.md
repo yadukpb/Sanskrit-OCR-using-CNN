@@ -36,25 +36,18 @@ This dataset was originally created by the Computer Vision Research Group, Nepal
    ```bash
    pip install -r requirements.txt
 
-   
+
+### Results
+After training, the model's performance can be evaluated using various metrics such as accuracy, loss, and classification reports. Additionally, visualizations such as training and validation accuracy/loss plots provide insights into the training process.
+
+### Accuracy:
+The trained model achieved an impressive accuracy of 97.89 percent on the test dataset. This high level of accuracy demonstrates the effectiveness of the model in accurately recognizing Sanskrit characters from images.
+
+
 ### Usage
 Ensure you have the dataset (data.csv) containing Sanskrit character images. You can download it from Kaggle.
 Run the sanskrit_ocr_cnn.ipynb notebook using Jupyter Notebook or any compatible environment.
 Follow the instructions provided in the notebook to train the CNN model and perform OCR on Sanskrit character images.
 Model Architecture
 The CNN model architecture consists of convolutional layers, max-pooling layers, dropout layers, and fully connected layers. The model is trained using the Adam optimizer and Sparse Categorical Crossentropy loss function.
-
-### Results
-After training, the model's performance can be evaluated using various metrics such as accuracy, loss, and classification reports. Additionally, visualizations such as training and validation accuracy/loss plots provide insights into the training process.
-
-
-### Usage
-Ensure you have the dataset (data.csv) containing Sanskrit character images. You can download it from Kaggle.
-Run the sanskrit_ocr_cnn.ipynb notebook using Jupyter Notebook or any compatible environment.
-Follow the instructions provided in the notebook to train the CNN model and perform OCR on Sanskrit character images.
-Model Architecture
-The CNN model architecture consists of convolutional layers, max-pooling layers, dropout layers, and fully connected layers. The model is trained using the Adam optimizer and Sparse Categorical Crossentropy loss function.
-
-### Results
-After training, the model's performance can be evaluated using various metrics such as accuracy, loss, and classification reports. Additionally, visualizations such as training and validation accuracy/loss plots provide insights into the training process.
 
